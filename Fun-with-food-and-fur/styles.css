@@ -1,0 +1,59 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun font choice */
+    margin: 25px;
+    background-color: #2a6cde; /* Background color */
+}
+
+h1 {
+    text-align: center;
+    color: #fff; /* Change heading color to white for better contrast */
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+    background: rgb(17, 160, 191); /* Light blue background for the form */
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    color: #fff; /* Label color to contrast against the background */
+}
+
+input, select, button {
+    width: 90%;
+    padding: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 2px solid #cf2db7; /* Border color for inputs */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition for border and shadow */
+}
+
+input:focus, select:focus {
+    border-color: #ff5722; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(255, 87, 34, 0.5); /* Add shadow on focus */
+}
+
+button {
+    background-color: #7428a7; /* Button color */
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition for background color and scale */
+}
+
+button:hover {
+    background-color: #218838; /* Change button color on hover */
+    transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+#result {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 1.5em;
+    color: #fff; /* Change result text color to white for contrast */
+}

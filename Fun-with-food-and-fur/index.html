@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun with Food and Fur</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Discover Your Inner Animal!</h1>
+    <form id="quiz-form">
+        <label for="food">Favorite Food:</label>
+        <input type="text" id="food" placeholder="e.g., Pizza 🍕" required>
+    
+        <label for="color">Favorite Color:</label>
+        <input type="text" id="color" placeholder="e.g., Blue 💙" required>
+    
+        <label for="drink">Favorite Drink:</label>
+        <input type="text" id="drink" placeholder="e.g., Lemonade 🍋" required>
+    
+        <label for="tv-show">Favorite TV Show:</label>
+        <input type="text" id="tv-show" placeholder="e.g., Friends 📺" required>
+    
+        <label for="time-of-day">Favorite Time of Day:</label>
+        <select id="time-of-day" required>
+            <option value="morning">Morning ☀️</option>
+            <option value="afternoon">Afternoon ☀️</option>
+            <option value="evening">Evening 🌅</option>
+            <option value="night">Night 🌙</option>
+        </select>
+    
+        <label for="pastime">Favorite Pastime:</label>
+        <input type="text" id="pastime" placeholder="e.g., Reading 📚" required>
+    
+        <button type="submit">Find My Animal</button>
+    </form>
+    
+    <!-- Result Section -->
+    <div id="result" aria-live="polite">Your result will appear here!</div>
+    <!-- Form to add a new animal -->
+<form id="add-animal-form">
+    <input type="text" id="new-animal-name" placeholder="Animal Name" required />
+    <input type="text" id="new-animal-type" placeholder="Animal Type" required />
+    <button type="submit">Add Animal</button>
+</form>
+
+<!-- Section to display the list of animals -->
+<div id="animal-list"></div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

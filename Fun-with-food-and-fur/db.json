@@ -1,0 +1,10 @@
+{
+    "animals": [
+      { "id": 1, "name": "Penguin", "description": "A flightless bird known for its swimming ability." },
+      { "id": 2, "name": "Dolphin", "description": "A highly intelligent marine mammal." },
+      { "id": 3, "name": "Elephant", "description": "The largest land animal on Earth." },
+      { "id": 4, "name": "Koala", "description": "A marsupial that feeds on eucalyptus leaves." },
+      { "id": 5, "name": "Tiger", "description": "The largest cat species, known for its strength." }
+    ]
+  }
+  
